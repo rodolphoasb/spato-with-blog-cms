@@ -51,11 +51,7 @@ export default function Header() {
         <nav className='fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto'>
           <div className='flex items-center mb-8'>
             <a className='mr-auto text-3xl font-semibold leading-none' href='#'>
-              <img
-                src='/projects/uploads/files/54/54fd1fb86880395112abcff8e9170db625f0f9a3/Group_4_(1).svg'
-                alt=''
-                width='100'
-              />
+              <img src='/logo.svg' alt='' width='100' />
             </a>
             <button className='navbar-close'>
               <svg
@@ -94,14 +90,6 @@ export default function Header() {
                   href='#'
                 >
                   Blog
-                </a>
-              </li>
-              <li className='mb-1'>
-                <a
-                  className='block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600'
-                  href='#'
-                >
-                  Sobre nós
                 </a>
               </li>
             </ul>
