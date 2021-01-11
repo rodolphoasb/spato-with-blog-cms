@@ -4,12 +4,12 @@ export default function Presentation() {
       <div className='flex flex-wrap'>
         <div className='flex order-1 lg:order-0 w-full lg:w-1/2 lg:h-128 lg:max-w-lg lg:ml-auto px-4 lg:pr-24 xl:pr-4'>
           <div className='my-auto mx-auto pt-8 lg:pt-0 max-w-2xl lg:max-w-lg'>
-            <h2 className='text-3xl md:text-4xl mb-4 font-bold font-heading'>
+            <h1 className='text-3xl md:text-5xl mb-4 font-bold font-heading'>
               <span>Aumentamos suas conversões</span>{' '}
               <span className='text-blue-600'>e</span>{' '}
               <span>geramos mais leads através de SEO.</span>
-            </h2>
-            <p className='text-blueGray-400 leading-loose mb-6'>
+            </h1>
+            <p className='text-blueGray-400 text-lg leading-loose mb-6'>
               Prazer, somos a Spato. Uma boutique de SEO e Otimização de
               Resultados.
             </p>
