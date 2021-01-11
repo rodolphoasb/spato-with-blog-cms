@@ -55,8 +55,8 @@ export async function getStaticProps({ params, preview = false }) {
     props: {
       preview,
       post: data?.post || null,
-      morePosts: data?.morePosts || null,
-    },
+      morePosts: data?.morePosts || null
+    }
   }
 }
 
@@ -64,11 +64,11 @@ export async function getStaticPaths() {
   const allPosts = await getAllPostsWithSlug()
   return {
     paths:
-      allPosts?.map((post) => ({
+      allPosts?.map(post => ({
         params: {
-          slug: post.slug,
-        },
+          slug: post.slug.toString()
+        }
       })) || [],
-    fallback: true,
+    fallback: true
   }
 }
