@@ -4,7 +4,7 @@ export default function Team() {
       <div className='container px-4 mx-auto'>
         <div className='max-w-lg mx-auto mb-12 text-center'>
           <span className='inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl'>
-            Our Team
+            Nosso Time
           </span>
           <h2 className='text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading'>
             Lorem ipsum dolor sit amet consectutar domor
@@ -42,38 +42,6 @@ export default function Team() {
               <p className='my-2 text-sm text-blue-600'>
                 Director, Product Development
               </p>
-              <p className='leading-loose text-blueGray-400'>
-                Donec consequat tortor risus, at auctor felis consequat a. Donec
-                quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar.
-                Vestibulum non quam velit.
-              </p>
-            </div>
-          </div>
-          <div className='lg:w-1/2 flex flex-col md:flex-row px-3 mb-12'>
-            <img
-              className='h-64 w-64 rounded object-cover'
-              src='https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60'
-              alt=''
-            />
-            <div className='pt-6 md:pt-2 md:pl-6'>
-              <p className='text-xl'>Anne Jones</p>
-              <p className='my-2 text-sm text-blue-600'>Head of Operations</p>
-              <p className='leading-loose text-blueGray-400'>
-                Donec consequat tortor risus, at auctor felis consequat a. Donec
-                quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar.
-                Vestibulum non quam velit.
-              </p>
-            </div>
-          </div>
-          <div className='lg:w-1/2 flex flex-col md:flex-row px-3 mb-12'>
-            <img
-              className='h-64 w-64 rounded object-cover'
-              src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60'
-              alt=''
-            />
-            <div className='pt-6 md:pt-2 md:pl-6'>
-              <p className='text-xl'>Julie Bailey</p>
-              <p className='my-2 text-sm text-blue-600'>Head of Development</p>
               <p className='leading-loose text-blueGray-400'>
                 Donec consequat tortor risus, at auctor felis consequat a. Donec
                 quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar.

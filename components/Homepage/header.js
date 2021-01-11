@@ -22,28 +22,13 @@ export default function Header() {
           </div>
           <ul className='hidden lg:flex items-center space-x-12 ml-auto mr-12'>
             <li>
-              <Link
-                className='text-sm text-blueGray-400 hover:text-blueGray-500'
-                href='/posts'
-              >
-                Blog
+              <Link href='/posts' passHref>
+                <a className='text-lg text-blueGray-500 hover:text-blueGray-700'>
+                  Blog
+                </a>
               </Link>
             </li>
           </ul>
-          <div className='hidden lg:block'>
-            <a
-              className='mr-2 inline-block px-4 py-3 text-xs text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded'
-              href='#'
-            >
-              Log In
-            </a>
-            <a
-              className='inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded'
-              href='#'
-            >
-              Sign Up
-            </a>
-          </div>
         </nav>
       </div>
       <div className='hidden navbar-menu relative z-50'>
@@ -93,20 +78,6 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-            <div className='mt-4 pt-6 border-t border-blueGray-100'>
-              <a
-                className='block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded'
-                href='#'
-              >
-                Sign Up
-              </a>
-              <a
-                className='block px-4 py-3 mb-2 text-xs text-center text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded'
-                href='#'
-              >
-                Log In
-              </a>
-            </div>
           </div>
           <div className='mt-auto'>
             <p className='my-4 text-xs text-blueGray-400'>
@@ -118,7 +89,7 @@ export default function Header() {
                 info@example.com
               </a>
             </p>
-            <a className='inline-block px-1' href='#'>
+            {/* <a className='inline-block px-1' href='#'>
               <img src='metis-assets/icons/facebook-blue.svg' alt='' />
             </a>
             <a className='inline-block px-1' href='#'>
@@ -126,7 +97,7 @@ export default function Header() {
             </a>
             <a className='inline-block px-1' href='#'>
               <img src='metis-assets/icons/instagram-blue.svg' alt='' />
-            </a>
+            </a> */}
           </div>
         </nav>
       </div>

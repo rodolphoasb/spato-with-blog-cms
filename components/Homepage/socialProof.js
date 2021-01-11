@@ -23,7 +23,7 @@ export default function SocialProof() {
         </div>
         <div className='flex flex-wrap items-center justify-center'>
           <div className='flex justify-center w-1/2 md:w-1/3 lg:w-1/6 px-3 mb-12'>
-            <a className='text-blueGray-300 hover:text-blue-600' href='#'>
+            <p className='text-blueGray-300 hover:text-blue-600'>
               <svg
                 width='38'
                 height='49'
@@ -44,10 +44,10 @@ export default function SocialProof() {
                   fill='currentColor'
                 ></path>
               </svg>
-            </a>
+            </p>
           </div>
           <div className='flex justify-center w-1/2 md:w-1/3 lg:w-1/6 px-3 mb-12'>
-            <a className='text-blueGray-300 hover:text-blue-600' href='#'>
+            <p className='text-blueGray-300 hover:text-blue-600' href='#'>
               <svg
                 width='104'
                 height='22'
@@ -60,10 +60,10 @@ export default function SocialProof() {
                   fill='currentColor'
                 ></path>
               </svg>
-            </a>
+            </p>
           </div>
           <div className='flex justify-center w-1/2 md:w-1/3 lg:w-1/6 px-3 mb-12'>
-            <a className='text-blueGray-300 hover:text-blue-600' href='#'>
+            <p className='text-blueGray-300 hover:text-blue-600'>
               <svg
                 width='76'
                 height='25'
@@ -96,10 +96,10 @@ export default function SocialProof() {
                   fill='currentColor'
                 ></path>
               </svg>
-            </a>
+            </p>
           </div>
           <div className='flex justify-center w-1/2 md:w-1/3 lg:w-1/6 px-3 mb-12'>
-            <a className='text-blueGray-300 hover:text-blue-600' href='#'>
+            <p className='text-blueGray-300 hover:text-blue-600'>
               <svg
                 width='69'
                 height='37'
@@ -132,10 +132,10 @@ export default function SocialProof() {
                   fill='currentColor'
                 ></path>
               </svg>
-            </a>
+            </p>
           </div>
           <div className='flex justify-center w-1/2 md:w-1/3 lg:w-1/6 px-3 mb-12'>
-            <a className='text-blueGray-300 hover:text-blue-600' href='#'>
+            <p className='text-blueGray-300 hover:text-blue-600'>
               <svg
                 width='43'
                 height='49'
@@ -148,10 +148,10 @@ export default function SocialProof() {
                   fill='currentColor'
                 ></path>
               </svg>
-            </a>
+            </p>
           </div>
           <div className='flex justify-center w-1/2 md:w-1/3 lg:w-1/6 px-3 mb-12'>
-            <a className='text-blueGray-300 hover:text-blue-600' href='#'>
+            <p className='text-blueGray-300 hover:text-blue-600'>
               <svg
                 width='76'
                 height='25'
@@ -184,7 +184,7 @@ export default function SocialProof() {
                   fill='currentColor'
                 ></path>
               </svg>
-            </a>
+            </p>
           </div>
         </div>
       </div>

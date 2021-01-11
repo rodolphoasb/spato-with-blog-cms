@@ -13,38 +13,36 @@ export default function Footer() {
           </div>
           <div className='w-full lg:w-2/5 px-3 mb-8 lg:mb-0'>
             <p className='max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-blueGray-400 leading-relaxed'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo.
+              Boutique de SEO e Otimização de Resultados através de marketing,
+              tecnologia e Design.
             </p>
           </div>
           <div className='w-full lg:w-1/5 px-3 mb-8 lg:mb-0'>
             <p className='mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800'>
-              Office
+              Escritório
             </p>
             <p className='lg:text-lg text-blueGray-400'>
-              359 Hidden Valley Road, NY
+              R. 22, 431 - St. Oeste, Goiânia/GO
             </p>
           </div>
           <div className='w-full lg:w-1/5 px-3'>
             <p className='mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800'>
-              Contacts
+              Contatos
             </p>
-            <p className='lg:text-lg text-blueGray-400'>hello@gmail.com</p>
+            <p className='lg:text-lg text-blueGray-400'>contato@spato.com.br</p>
+            <p className='lg:text-lg text-blueGray-400'>Chat</p>
           </div>
         </div>
         <div className='flex flex-col lg:flex-row items-center lg:justify-between'>
           <p className='text-xs text-blueGray-400'>
-            © 2020. All rights reserved.
+            © 2021. Todos os direitos reservados.
           </p>
           <div className='order-first lg:order-last -mx-2 mb-4 lg:mb-0'>
             <a className='inline-block px-2' href='#'>
-              <img src='metis-assets/icons/facebook-blue.svg' alt='' />
+              <img src='/linkedin.svg' className='w-6' alt='linkedin icon' />
             </a>
             <a className='inline-block px-2' href='#'>
-              <img src='metis-assets/icons/twitter-blue.svg' alt='' />
-            </a>
-            <a className='inline-block px-2' href='#'>
-              <img src='metis-assets/icons/instagram-blue.svg' alt='' />
+              <img src='/instagram.svg' className='w-6' alt='instagram icon' />
             </a>
           </div>
         </div>

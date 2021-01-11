@@ -27,10 +27,10 @@ export default function Features() {
               </div>
               <img
                 className='h-48 mx-auto my-4'
-                src='metis-assets/illustrations/work-tv.png'
-                alt=''
+                src='/work-tv.png'
+                alt='ícone de pessoa sorrindo numa tela'
               />
-              <h3 className='mb-2 font-bold font-heading'>Donec fermentum</h3>
+              <h3 className='mb-2 font-bold font-heading'>CRO</h3>
               <p className='text-sm text-blueGray-400 leading-relaxed'>
                 Sed ac magna sit amet risus tristique interdum at vel velit. In
                 hac habitasse platea dictumst.
@@ -44,10 +44,10 @@ export default function Features() {
               </div>
               <img
                 className='h-48 mx-auto my-4'
-                src='metis-assets/illustrations/people-watching.png'
-                alt=''
+                src='/people-watching.png'
+                alt='ícone de duas pessoas assistindo uma barra carregar'
               />
-              <h3 className='mb-2 font-bold font-heading'>Donec fermentum</h3>
+              <h3 className='mb-2 font-bold font-heading'>SEO</h3>
               <p className='text-sm text-blueGray-400 leading-relaxed'>
                 Sed ac magna sit amet risus tristique interdum at vel velit. In
                 hac habitasse platea dictumst.
@@ -61,10 +61,10 @@ export default function Features() {
               </div>
               <img
                 className='h-48 mx-auto my-4'
-                src='metis-assets/illustrations/financial-report.png'
-                alt=''
+                src='/financial-report.png'
+                alt='Duas pessoas pintando uma tela'
               />
-              <h3 className='mb-2 font-bold font-heading'>Donec fermentum</h3>
+              <h3 className='mb-2 font-bold font-heading'>Web Design</h3>
               <p className='text-sm text-blueGray-400 leading-relaxed'>
                 Sed ac magna sit amet risus tristique interdum at vel velit. In
                 hac habitasse platea dictumst.
