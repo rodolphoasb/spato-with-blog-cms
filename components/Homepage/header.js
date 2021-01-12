@@ -5,8 +5,10 @@ export default function Header() {
     <section>
       <div className='container px-4 mx-auto'>
         <nav className='flex items-center py-6'>
-          <Link className='text-3xl font-semibold leading-none' href='#'>
-            <img src='/logo.svg' alt='logo' width='100' />
+          <Link href='/' passHref>
+            <a>
+              <img src='/logo.svg' alt='logo' width='100' />
+            </a>
           </Link>
           <div className='lg:hidden ml-auto'>
             <button className='navbar-burger flex items-center py-2 px-3 text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300'>
