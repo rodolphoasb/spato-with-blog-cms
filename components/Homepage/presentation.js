@@ -3,7 +3,7 @@ export default function Presentation() {
     <section className='pt-20 pb-20 lg:pb-12 overflow-x-hidden'>
       <div className='flex flex-wrap'>
         <div className='flex order-1 lg:order-0 w-full lg:w-1/2 lg:h-128 lg:max-w-lg lg:ml-auto px-4 lg:pr-24 xl:pr-4'>
-          <div className='my-auto mx-auto pt-8 lg:pt-0 max-w-2xl lg:max-w-lg'>
+          <div className='my-auto mx-auto pt-8 lg:pt-0 max-w-2xl lg:max-w-lg text-center md:text-left'>
             <h1 className='text-3xl md:text-5xl mb-4 font-bold font-heading'>
               <span>Aumentamos suas conversões</span>{' '}
               <span className='text-blue-600'>e</span>{' '}
@@ -35,8 +35,8 @@ export default function Presentation() {
             >
               <img
                 className='object-cover w-full h-full'
-                src='/metis-dashboard-square.png'
-                alt=''
+                src='/growth.png'
+                alt='Growth Chart'
               />
             </div>
           </div>

@@ -10,13 +10,13 @@ export default function Faq() {
         <div className='flex-1 lg:pl-32 py-20 lg:py-16'>
           <div className='max-w-2xl px-4 mx-auto lg:ml-0'>
             <h3 className='mb-8 text-4xl font-bold font-heading'>
-              Frequently Asked Questions
+              Perguntas Frequentes
             </h3>
             <ul className='space-y-8'>
               <li>
                 <button className='w-full flex justify-between items-center text-left font-bold font-heading hover:text-blueGray-700'>
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    Quanto tempo demora para SEO começar a dar resultados?
                   </span>
                   <svg
                     className='w-4 h-4 ml-2 text-blueGray-300'

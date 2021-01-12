@@ -5,17 +5,15 @@ export default function Features() {
         <div className='flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12'>
           <div className='w-full lg:w-1/2 mb-4 lg:mb-0'>
             <h2 className='text-3xl md:text-4xl font-bold font-heading'>
-              <span>Make your</span>
-              <span className='text-blue-600'>life easier</span>
-              <span>for marketing sales and customer support</span>
+              <span>Somos o</span> <span className='text-blue-600'>atalho</span>{' '}
+              <span>para os resultados que você quer</span>
             </h2>
           </div>
           <div className='w-full lg:w-1/2 lg:pl-16'>
-            <p className='text-blueGray-400 leading-loose'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus eget justo et iaculis. Quisque vitae nulla malesuada,
-              auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id
-              imperdiet.
+            <p className='text-blueGray-500 leading-loose'>
+              Nossa cultura é 100% voltada aos testes. Testamos algo novo todos
+              os dias e vamos utilizar os aprendizados desses testes para
+              alavancar o resultado dos seus negócios!
             </p>
           </div>
         </div>
@@ -31,9 +29,10 @@ export default function Features() {
                 alt='ícone de pessoa sorrindo numa tela'
               />
               <h3 className='mb-2 font-bold font-heading'>CRO</h3>
-              <p className='text-sm text-blueGray-400 leading-relaxed'>
-                Sed ac magna sit amet risus tristique interdum at vel velit. In
-                hac habitasse platea dictumst.
+              <p className='text-sm text-blueGray-500 leading-relaxed'>
+                Somos cientistas do Marketing. E vamos usar todo nosso
+                aprendizado (que custou muito $) para aumentar as suas
+                conversões.
               </p>
             </div>
           </div>
@@ -48,9 +47,9 @@ export default function Features() {
                 alt='ícone de duas pessoas assistindo uma barra carregar'
               />
               <h3 className='mb-2 font-bold font-heading'>SEO</h3>
-              <p className='text-sm text-blueGray-400 leading-relaxed'>
-                Sed ac magna sit amet risus tristique interdum at vel velit. In
-                hac habitasse platea dictumst.
+              <p className='text-sm text-blueGray-500 leading-relaxed'>
+                Seu site no topo das buscas do Google! Já pensou em captar leads
+                de graça enquanto dorme? Só o SEO pode te proporcionar isso!
               </p>
             </div>
           </div>
@@ -65,9 +64,10 @@ export default function Features() {
                 alt='Duas pessoas pintando uma tela'
               />
               <h3 className='mb-2 font-bold font-heading'>Web Design</h3>
-              <p className='text-sm text-blueGray-400 leading-relaxed'>
-                Sed ac magna sit amet risus tristique interdum at vel velit. In
-                hac habitasse platea dictumst.
+              <p className='text-sm text-blueGray-500 leading-relaxed'>
+                Criamos sites responsivos, rápidos e que enchem os olhos do seu
+                cliente! E mais importante, sites que convertem e colocam $ no
+                seu bolso.
               </p>
             </div>
           </div>

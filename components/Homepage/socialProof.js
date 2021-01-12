@@ -12,7 +12,7 @@ export default function SocialProof() {
             />
           </div>
           <div className='w-full lg:w-1/2 lg:pl-24 my-auto'>
-            <img src='metis-assets/icons/quote.svg' alt='' />
+            <img src='/quote.svg' alt='' />
             <h2 className='my-4 text-4xl font-bold font-heading'>
               Maecenas nibh purus, pharetra ac felis sed, elementum molestie
               urna. Nunc at arcu non ipsum auctor lacinia quis quis mi.
