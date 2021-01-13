@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <section className='py-20'>
+    <section className='py-20 '>
       <div className='container px-4 mx-auto'>
         <div className='flex flex-wrap mb-12 lg:mb-20 -mx-3 text-center lg:text-left'>
           <div className='w-full lg:w-1/5 px-3 mb-6 lg:mb-0'>
