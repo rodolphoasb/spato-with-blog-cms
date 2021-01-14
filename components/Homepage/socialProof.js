@@ -8,20 +8,22 @@ export default function SocialProof() {
             <img
               className='absolute top-0 right-0 h-full w-full rounded-xl object-cover object-top'
               src='https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60'
-              alt=''
+              alt='Foto Mariana Botelho'
             />
           </div>
           <div className='w-full lg:w-1/2 lg:pl-24 my-auto'>
             <img src='/quote.svg' alt='' />
             <h2 className='my-4 text-4xl font-bold font-heading'>
-              Maecenas nibh purus, pharetra ac felis sed, elementum molestie
-              urna. Nunc at arcu non ipsum auctor lacinia quis quis mi.
+              O tráfego orgânico do nosso ecommerce mais que dobrou depois de 6
+              meses trabalhando com a Spato.
             </h2>
-            <p className='mb-1 text-xl'>Alice Bradley</p>
-            <p className='text-blue-600'>Head of Operations</p>
+            <p className='mb-1 text-xl'>Mariana Botelho</p>
+            <p className='text-blue-600'>
+              Gerente de Marketing | Fatto Calçados
+            </p>
           </div>
         </div>
-        <div className='flex flex-wrap items-center justify-center'>
+        {/* <div className='flex flex-wrap items-center justify-center'>
           <div className='flex justify-center w-1/2 md:w-1/3 lg:w-1/6 px-3 mb-12'>
             <p className='text-blueGray-300 hover:text-blue-600'>
               <svg
@@ -186,7 +188,7 @@ export default function SocialProof() {
               </svg>
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
