@@ -7,7 +7,6 @@ import SectionSeparator from '../../components/section-separator'
 import Layout from '../../components/layout'
 import { getAllPostsWithSlug, getPostAndMorePosts } from '../../lib/api'
 import PostTitle from '../../components/post-title'
-import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import Date from '../../components/date'
 import Header from '../../components/Homepage/header'
@@ -20,17 +19,13 @@ export default function Post({ post, morePosts, preview }) {
   }
   return (
     <Layout preview={preview}>
-      <NextSeo title={post.title} description={post.excerpt} />
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
+            <NextSeo title={post.title} description={post.excerpt} />
             <article>
-              <Head>
-                <title>{post.title} | Spato</title>
-                {/* <meta property="og:image" content={post.ogImage.url} /> */}
-              </Head>
               <Header />
               <section className='py-20'>
                 <div className='container px-4 mx-auto'>
