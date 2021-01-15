@@ -11,6 +11,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import Date from '../../components/date'
 import Header from '../../components/Homepage/header'
+import { NextSeo } from 'next-seo'
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter()
@@ -19,6 +20,7 @@ export default function Post({ post, morePosts, preview }) {
   }
   return (
     <Layout preview={preview}>
+      <NextSeo title={post.title} description={post.excerpt} />
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>

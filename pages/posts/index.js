@@ -4,14 +4,16 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import Link from 'next/link'
 import Header from '../../components/Homepage/header'
+import { NextSeo } from 'next-seo'
 
 export default function Index({ allPosts, preview }) {
   return (
     <>
       <Layout preview={preview}>
-        <Head>
-          <title>Spato | Blog</title>
-        </Head>
+        <NextSeo
+          title='Spato | Blog de SEO e CRO'
+          description='Estudos de casos e os posts com principais assuntos do mundo do SEO e CRO'
+        />
         <Header />
         <section className='py-20'>
           <div className='container px-4 mx-auto'>

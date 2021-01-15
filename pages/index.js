@@ -6,10 +6,15 @@ import Team from '../components/Homepage/team'
 import Cta from '../components/Homepage/cta'
 import Footer from '../components/Homepage/footer'
 import Faq from '../components/Homepage/faq'
+import { NextSeo } from 'next-seo'
 
 export default function Index() {
   return (
     <>
+      <NextSeo
+        title='Spato | Boutique de SEO e otimização de resultados'
+        description='Aumentamos suas conversões e geramos mais leads através de SEO.'
+      />
       <Header />
       <Presentation />
       <SocialProof />
