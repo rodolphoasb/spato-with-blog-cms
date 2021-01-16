@@ -32,9 +32,9 @@ export default function Post({ post, morePosts, preview }) {
                   <div className='max-w-2xl mx-auto mb-12'>
                     <div className='text-center mb-6'>
                       <span className='text-base md:text-lg'>
-                        <a className='text-blue-500 hover:underline' href='#'>
+                        {/* <a className='text-blue-500 hover:underline' href='#'>
                           CATEGORY
-                        </a>{' '}
+                        </a>{' '} */}
                         <Date dateString={post.date} />
                       </span>
                       <h1 className='text-4xl md:text-5xl my-2 font-bold font-heading'>
