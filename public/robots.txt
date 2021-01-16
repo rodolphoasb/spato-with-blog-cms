@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://spato.com.br
+
+# Sitemaps
+Sitemap: https://spato.com.br/sitemap.xml
+Sitemap: https://spato.com.br/server-sitemap.xml
