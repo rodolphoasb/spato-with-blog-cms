@@ -17,18 +17,18 @@ export default function Index({ allPosts, preview }) {
         <Header />
         <section className='py-20'>
           <div className='container px-4 mx-auto'>
-            <h2 className='mb-12 lg:mb-20 text-3xl md:text-4xl font-bold font-heading text-blue-600'>
+            <h1 className='mb-12 lg:mb-20 text-3xl md:text-4xl font-bold font-heading text-blue-600'>
               Nosso Blog
-            </h2>
+            </h1>
             {allPosts.map(post => (
               <div
                 key={post.slug}
                 className='flex flex-wrap -mx-4 py-8 mb-20 shadow-lg'
               >
                 <div className='w-full lg:w-1/2 px-4 lg:pl-20 lg:pt-4 order-1'>
-                  <span className='inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600'>
+                  {/* <span className='inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600'>
                     Startup
-                  </span>
+                  </span> */}
                   <h3 className='my-4 text-xl md:text-2xl font-bold font-heading'>
                     {post.title}
                   </h3>
