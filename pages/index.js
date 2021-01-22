@@ -12,8 +12,8 @@ export default function Index() {
   return (
     <>
       <NextSeo
-        title='Spato | Boutique de SEO e otimização de resultados'
-        description='Aumentamos suas conversões e geramos mais leads através de SEO.'
+        title='Spato | Boutique de SEO e Marketing de Conteúdo'
+        description='Geramos mais leads através de SEO e Marketing de Conteúdo de alto nível.'
       />
       <Header />
       <Presentation />

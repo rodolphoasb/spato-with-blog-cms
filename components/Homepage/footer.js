@@ -13,8 +13,7 @@ export default function Footer() {
           </div>
           <div className='w-full lg:w-2/5 px-3 mb-8 lg:mb-0'>
             <p className='max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-blueGray-400 leading-relaxed'>
-              Boutique de SEO e Otimização de Resultados através de marketing,
-              tecnologia e Design.
+              Boutique de SEO e Marketing de Conteúdo.
             </p>
           </div>
           <div className='w-full lg:w-1/5 px-3 mb-8 lg:mb-0'>
