@@ -5,7 +5,7 @@ export default function Presentation() {
         <div className='flex order-1 lg:order-0 w-full lg:w-1/2 lg:h-128 lg:max-w-lg lg:ml-auto px-4 lg:pr-24 xl:pr-4'>
           <div className='my-auto mx-auto pt-8 lg:pt-0 max-w-2xl lg:max-w-lg text-center md:text-left'>
             <h1 className='text-3xl md:text-5xl mb-4 font-bold font-heading'>
-              <span>Geramos mais leads através de SEO</span>{' '}
+              <span>Geramos leads através de SEO</span>{' '}
               <span className='text-blue-600'>e</span>{' '}
               <span>Marketing de Conteúdo de alto nível.</span>
             </h1>
