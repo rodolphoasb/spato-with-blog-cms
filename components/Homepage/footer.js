@@ -37,10 +37,16 @@ export default function Footer() {
             © 2021. Todos os direitos reservados.
           </p>
           <div className='order-first lg:order-last -mx-2 mb-4 lg:mb-0'>
-            <a className='inline-block px-2' href='#'>
+            <a
+              className='inline-block px-2'
+              href='https://www.linkedin.com/company/spato'
+            >
               <img src='/linkedin.svg' className='w-6' alt='linkedin icon' />
             </a>
-            <a className='inline-block px-2' href='#'>
+            <a
+              className='inline-block px-2'
+              href='https://www.instagram.com/spato.com.br/'
+            >
               <img src='/instagram.svg' className='w-6' alt='instagram icon' />
             </a>
           </div>
