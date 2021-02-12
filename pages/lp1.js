@@ -1,4 +1,5 @@
 import Header from "../components/Homepage/header";
+import { NextSeo } from 'next-seo'
 
 const Lp1 = () => {
   return (
