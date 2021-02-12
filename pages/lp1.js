@@ -3,6 +3,7 @@ import Header from "../components/Homepage/header";
 const Lp1 = () => {
   return (
     <>
+    <NextSeo title="Mais Leads = Mais Vendas" description="Descubra como a Spato pode ajudar você, corretor de imóveis, a fazer mais vendas!" />
       <Header />
       <div className="px-5 text-center md:px-24 md:max-w-6xl md:mx-auto py-3">
         <h1 className="text-3xl font-semibold mb-2 text-blue-700">
